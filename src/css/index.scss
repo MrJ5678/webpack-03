@@ -1,0 +1,23 @@
+// $body-color: green;
+
+// body {
+//   background-color: $body-color;
+//   div {
+//     display: grid;
+//   }
+// }
+@font-face {
+  font-family: "webfont";
+  font-display: swap;
+  src: url("../webfont.woff") format("woff"); /* chrome、firefox */
+}
+
+body {
+  font-family: "webfont" !important;
+  div {
+    height: 200px;
+    color: pink;
+    background: url("../images/undraw_Street_food_re_uwex.png") 0 0 no-repeat;
+    border: 1px pink solid;
+  }
+}
